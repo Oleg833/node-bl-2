@@ -26,4 +26,13 @@ function invokeAction({ action, num1, num2 }) {
   }
 }
 
-invokeAction(argv);
+// invokeAction(argv);
+
+const confused = "no";
+const myKey = confused;
+
+const obj = {
+  [myKey]: false,
+};
+
+console.log(obj);
